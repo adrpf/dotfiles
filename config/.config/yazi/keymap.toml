@@ -3,6 +3,13 @@
 on   = "<C-n>"
 run  = "shell -- xdg-open ."
 desc = "Open system file browser for current directory"
+for  = "linux"
+
+[[mgr.prepend_keymap]]
+on   = "<C-n>"
+run  = "shell -- open ."
+desc = "Open system file browser for current directory"
+for  = "macos"
 
 [[mgr.prepend_keymap]]
 on   = [ "g", "c" ]
