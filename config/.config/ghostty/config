@@ -1,7 +1,8 @@
 theme = iTerm2 Pastel Dark Background
+# theme = Cursor Dark
 cursor-color = #00c2ff
 clipboard-read = allow
 macos-option-as-alt = true
-# background-opacity = 0.95
-# background-blur-radius = 10
-background = #141414 
+# background-opacity = 0.98
+background-blur-radius = 10
+background = #131313
